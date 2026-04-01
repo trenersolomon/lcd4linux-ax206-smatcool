@@ -11,3 +11,13 @@ stamp-h1
 smoketest.log
 git-*
 go_*
+
+*.lo
+*.la
+*.a
+.libs/
+config.h.in~
+configure~
+compile
+ltmain.sh
+Makefile
