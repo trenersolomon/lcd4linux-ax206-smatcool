@@ -10,7 +10,7 @@ set -e
 PS4="$0:\$LINENO> "
 set -x
 
-aclocal
+aclocal -I /usr/share/gettext/m4 -I /usr/share/aclocal
 libtoolize --copy --force 
 autoheader
 automake --add-missing --copy --foreign 

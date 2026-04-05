@@ -55,6 +55,7 @@ int drv_generic_graphic_greet(const char *msg1, const char *msg2);
 int drv_generic_graphic_draw(WIDGET * W);
 int drv_generic_graphic_icon_draw(WIDGET * W);
 int drv_generic_graphic_bar_draw(WIDGET * W);
+int drv_generic_graphic_image_draw(WIDGET * W);
 int drv_generic_graphic_quit(void);
 
 #endif
